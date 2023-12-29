@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-Api_key = 'f610f6a45d589a5e68bda473100c141a'
+Api_key = 'Your API Key Here'
 location = input("Enter Your City :")
 
 complite_url = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+Api_key
